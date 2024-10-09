@@ -14,7 +14,7 @@
 
  .header {
     background-color: blanchedalmond;
-    padding:24;
+    padding: 24px;
  }
 
  .header__page-title {
@@ -23,6 +23,14 @@
     font-size: 4rem;
     margin:0;
     text-align: center;
+    text-transform: uppercase;
+ }
+
+ .header__sub-title {
+   font-size: 2.2rem;
+   margin: 8px;
+   text-align: center;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
  }
 
 .git-commands {
