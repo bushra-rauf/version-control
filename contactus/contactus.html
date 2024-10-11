@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="./styles/contsctus.css">
+</head>
+<body>
+    <header class="header">
+        <img src="images/logocol.jpg" alt="image" width="10%" height="50px">
+        <h1 class="header__page-title">Fitness center</h1>
+    </header>    
+    <nav class="nav">
+        
+            <a href="../First-Assignment/fitness-resort.html">Our Gym</a>
+            <a  href="../aboutus/aboutus.html">About Us </a>
+            <a href="./contactus.html" >Contact Us</a>
+                
+    </nav>
+    <section class="main-container">
+
+    <img class="image-container" src="images/gym2.png"/>
+        <div class="form-container">
+      
+            <form action="mailto: someone@gmail.com" enctype="text/plain" method= "post" class="user__form">
+                <fieldset>
+                    <legend>Personal information</legend>
+                    <label for="username">Please Enter your name:</label>
+                    <input type="text" class="usernsmr" name="username" id=" username" placeholder="" required>
+
+                    <label for="user-age">Please give user-age:</label>
+                    <input type="text" class="user-age" name="user-age" id=" user-age" placeholder="Enter your age">
+
+                    <label for="user-email">Please give user-email:</label>
+                    <input type="text" class="user-mail" name="user-mail" id=" user-email" placeholder="Enter your email">
+
+                    <label for="user-mobile-no">Please give mobile number</label>
+                    <input type="text" class="user-mobile-no" name="user-mobile-no" id="user-mobile-no" placeholder="Enter user-mobile-no">
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your message</legend>
+                    <label for="user-message">  your message below:</label>
+                    <input type="text" name="user-message" id=" user-message" name="user-message">
+               </fieldset>
+
+               <fieldset>
+                    <legend>options</legend>
+                    <label for="user-country"> where do you live!:</label>
+
+                    <input type="radio" name="user-city" id="user-city"  value="user-city">
+                    <label class="radio" name="radio-label" id="Austria">Stockholm </label>
+
+                    <input type="radio" name="user-city" id="user-city"  value="user-city">
+                    <label class="radio" name="radio-label" id="Austria">Götomberg </label>
+
+                    <input type="radio" name="user-city" id="user-city"  value="user-city">
+                    <label class="radio" name="radio-label" id="Austria">Mälmo </label>
+                </fieldset>
+
+                <fieldset> 
+                    <legend> Membership type </legend>
+                    <label for="membership-type"> Available options</label>
+                    <select id="membership-type" name="membership-type">
+                    <option value="Yearly">Yearly 1500 kr.</option>
+                    <option value="Monthly">Monthly 250 kr.</option>
+                    <option value="weekly">Weekly 100 kr.</option>
+                    <option value="Daily">Daily 50 kr.</option>
+                </select>
+                
+                    <label for="gender"> choose your gender</label>
+                    <select id="gwnder" name="gender">
+                     <option value="female">Female</option>
+                     <option value="male">Male</option>
+                     <option value="non binary">Non binary</option>
+                
+                </select>
+                </fieldset>
+            
+        <button> Submit </button>
+        </forms>
+
+    </div>
+    </section>
+    <footer class="footer">
+        <p>
+            Copy Right 2024@Bushra Rauf
+        </p>
+    </footer>
+</body>
+</html>

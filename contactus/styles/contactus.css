@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+   min-height:100vh;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #eef2f6;
+    
+}
+
+.header {
+    background-color: #202C59;
+    margin: 0;
+    padding: 24px;
+    color:#fff;
+    text-align: center; 
+    display: inline;
+    
+}
+
+.header__page-title {
+    text-align: center;
+    color:#fff;
+    font-size: 2rem;
+    display: inline;
+    margin: 0;
+    font-size: 4rem;;
+}
+
+.nav {
+    display:flex;
+    justify-content: space-around;
+    background-color: rgb(74, 125, 219);
+    padding: 10px;
+    align-items: center;
+    font-size: 1.5rem;
+}
+ .nav a {
+    
+    color:#fff;
+    text-decoration: none;
+    padding:10px 15px;
+    
+ }
+
+ .nav a:hover {
+    color:#ab0505f0;
+ }
+
+
+
+.nav-menu:hover {
+    color:#b0b2b3;
+    text-decoration: solid;
+}
+  
+.main-container {
+    flex-grow: 1;
+    display:flex;
+    border-radius: 2px;
+    padding: 20px;
+    height:100vh;
+    flex-direction: row;
+ 
+    
+}
+
+.user__form {
+    background-color:skyblue; 
+    border-radius: 10px;
+    display:inline-block;
+    font-size: 1rem;
+    width:auto;
+    
+}
+
+label {
+    display: block;
+    margin-bottom:8px;
+
+}
+   
+.radio-label {
+    display: inline;
+
+}
+    
+fieldset {
+    border-radius: 10px;
+    width: 300px;
+       
+}
+   
+.user-message {
+   max-width:80%;
+
+}
+   
+button {
+    background-color: #04AA6D;
+    color: white;
+    padding: 6px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 4px;
+    
+
+}
+  
+button:hover {
+    background-color: #45a049;
+    padding: 8px 35px;
+
+}
+
+.image-container {
+   
+    height:86.5vh;
+    width:100%;
+     
+    background-repeat: no-repeat;
+    background-size: cover;
+    flex:8;
+
+
+} 
+.form-container {
+    flex:2 ;
+   
+}
+
+
+
+
+
+
+.footer {
+    background-color: #202C59;
+    padding: 16px;
+    text-align: center;
+    color: #fff;
+    margin:0;
+
+    }
+
+@media  (max-width: 568px) { 
+     .main-container {
+        flex-direction: column;
+        height:auto;
+     }
+    img {
+        flex: 1 1 100%;
+        height:40vh;
+    
+        
+    }
+
+    .content{
+        flex: 1 1 100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px;
+        }
+        
+}
+
+    
+
+   

@@ -1,0 +1,19 @@
+@font-face {
+    font-family:NunitoSans ;
+    src: url(../nunito-sans/NunitoSans10pt-ExtraBoldItalic.woff);
+}
+
+@font-face {
+    font-family: NunitoSans;
+    src: url(../nunito-sans/NunitoSans10pt-ExtraBoldItalic.woff2);
+}
+
+@font-face {
+    font-family: NunitoSans;
+    src: url(../nunito-sans/NunitoSans10pt-MediumItalic.woff);
+}
+
+@font-face {
+    font-family: NunitoSans;
+    src: url(../nunito-sans/NunitoSans10pt-MediumItalic.woff2);
+}
